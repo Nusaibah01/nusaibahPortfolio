@@ -101,6 +101,20 @@ footer{
   color: #2c3e50;
   font-family: "Press Start 2P", system-ui;
 }
+/* Resume */
+#resume{
+  background-color: #0C0C0C;
+}
+.lead{
+  color: #2c3e50;
+}
+#r{
+  font-family: "Press Start 2P", system-ui;
+}
+#edu{
+  font-family: "Space Mono", monospace;
+}
+
 /* media Query */
 @media screen and (width < 800px) {
   #landing .row {
