@@ -17,6 +17,6 @@
     }
   }
   </script>
-  <!-- <style src="@/assets/css/stylesheet.css"> 
-   -->
-  <!-- </style> -->
+  <style src="@/assets/css/stylesheet.css"> 
+  
+  </style>

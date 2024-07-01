@@ -1,0 +1,87 @@
+/* Bootstrap Icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* app */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+nav {
+  background-color: #D7D9CE;
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+
+}
+.nav-link{
+    color: #040404 ;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
+}
+/* Landing Section */
+/* #text{
+  font-family: "Space Mono", monospace;
+} */
+
+/* Universal Selector */
+
+/* Custom Variables */
+::-webkit-scrollbar{
+    display: none;
+}
+/* Select all images */
+img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Logo */
+img[alt='logo'] {
+    width: 5rem;
+    border-radius: 50%;
+    border: solid lavender;
+
+}
+/* About Image */
+img[alt='aboutimg'] {
+ border-radius: 50%;
+ height: 20% ;
+ 
+
+}
+
+/* Wrapper */
+:is(.wrapper){
+    display: grid;
+    grid-template-rows: auto minmax(100dvh, 100%) auto;
+}
+/* Section */
+section {
+  scroll-margin-block: 5rem;
+}
+/* media Query */
+@media screen and (width < 800px) {
+  #landing .row {
+    display: block;
+    height: auto;
+  }
+}
+/* Remove white space */
+/* #about img {
+  padding: 0;
+} */
+
+/* border  animation  */
