@@ -1,7 +1,7 @@
 <template>
   <div class="container">
    <div class="row">
-    <!-- <LandingSection/> -->
+    <LandingSection/>
     <section class="row" id="landing">
  
     </section>
@@ -26,19 +26,19 @@
 
 <script>
 
-// import LandingSection from '@/components/LandingSection.vue'
+import LandingSection from '@/components/LandingSection.vue'
 // import About from '@/components/AboutMe.vue'
 // import MyResume from '@/components/MyResume.vue'
 
 export default {
   name: 'HomeView',
-// components: {
-//  LandingSection,
+components: {
+ LandingSection,
 //   About,
 //   MyResume, 
   
 
-// }
+}
    }
 
 </script>

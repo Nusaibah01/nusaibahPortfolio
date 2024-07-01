@@ -33,9 +33,9 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 /* Landing Section */
-/* #text{
+#text{
   font-family: "Space Mono", monospace;
-} */
+}
 
 /* Universal Selector */
 
@@ -55,6 +55,13 @@ img[alt='logo'] {
     width: 5rem;
     border-radius: 50%;
     border: solid lavender;
+
+}
+img[alt='profile'] {
+   
+    border:  solid slategrey;
+    border-radius: 50%;
+   
 
 }
 /* About Image */
