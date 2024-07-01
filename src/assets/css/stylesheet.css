@@ -89,9 +89,18 @@ footer{
     font-family: "Space Mono", monospace; ;
 
 }
-/* Links */
-
-
+/* About Me */
+#about{
+  background-color: #D7D9CE;
+}
+.lead{
+  font-family: "Space Mono", monospace;
+  color: #0C0C0C;
+}
+#am{
+  color: #2c3e50;
+  font-family: "Press Start 2P", system-ui;
+}
 /* media Query */
 @media screen and (width < 800px) {
   #landing .row {
