@@ -1,8 +1,10 @@
 /* Bootstrap Icon */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 /* Google Fonts */
-
+/* Space Mono */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Press Start */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* app */
 #app {
@@ -14,17 +16,17 @@
 }
 
 nav {
-  background-color: #D7D9CE;
+  background-color: #0C0C0C;
   padding: 30px;
 }
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: plum
 
 }
 .nav-link{
-    color: #040404 ;
+      font-family: "Press Start 2P", system-ui;
 }
 
 nav a.router-link-exact-active {
@@ -72,6 +74,16 @@ img[alt='aboutimg'] {
 section {
   scroll-margin-block: 5rem;
 }
+
+/* Footer */
+footer{
+    background-color: #0C0C0C;
+    font-family: "Space Mono", monospace; ;
+
+}
+/* Links */
+
+
 /* media Query */
 @media screen and (width < 800px) {
   #landing .row {
