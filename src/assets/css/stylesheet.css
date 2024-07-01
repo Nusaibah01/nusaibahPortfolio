@@ -58,15 +58,16 @@ img[alt='logo'] {
 
 }
 img[alt='profile'] {
-   
-    border:  solid slategrey;
+     width: 30rem;
+    border: solid grey;
     border-radius: 50%;
    
 
 }
 /* About Image */
 img[alt='aboutimg'] {
- border-radius: 50%;
+
+  border-radius: 50%;
  height: 20% ;
  
 

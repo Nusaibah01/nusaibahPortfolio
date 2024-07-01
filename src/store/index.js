@@ -1,6 +1,4 @@
-import {
-  createStore
-} from 'vuex'
+import {createStore} from 'vuex'
 import axios from 'axios'
 import Swal from 'sweetalert2/dist/sweetalert2'
 const portfolioURL = 'https://nusaibah01.github.io/vue01/data/data.json'
