@@ -114,7 +114,11 @@ footer{
 #edu{
   font-family: "Space Mono", monospace;
 }
-
+/* Projects */
+#p{
+  font-family: "Space Mono", monospace;
+  color: silver;
+}
 /* media Query */
 @media screen and (width < 800px) {
   #landing .row {
