@@ -19,7 +19,7 @@
    <MyTestimonials/>
     </section>
     <section class="row" id="reachMe">
-
+    <ContactMe/>
     </section>
    </div>
   </div>
@@ -32,7 +32,7 @@ import About from '@/components/AboutMe.vue';
 import MyResume from '@/components/MyResume.vue';
 import MyProjects from '@/components/MyProjects.vue';
 import MyTestimonials from '@/components/MyTestimonials.vue';
-
+import ContactMe from '@/components/ContactMe.vue'
 export default {
   name: 'HomeView',
 components: {
@@ -40,7 +40,8 @@ components: {
   About,
   MyResume, 
   MyProjects,
-  MyTestimonials
+  MyTestimonials,
+  ContactMe
   
 
 }
