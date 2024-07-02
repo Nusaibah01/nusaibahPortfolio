@@ -16,8 +16,9 @@
 export default {
 
     name: 'CardComp',
+   
 
-}
+} 
 </script>
 
 <style scoped>
