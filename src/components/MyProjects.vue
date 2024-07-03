@@ -7,14 +7,17 @@
           
             <Card v-for="(project, id) in myProjects" :key="id" class="card">
                 <template #cardHeader>
-                    <h3 class="d-inline">{{ project.projectName }}</h3>
+                    <h5 class="d-inline">{{ project.projectName }}</h5>
+                    <hr>
                     <div>
                     <img src="https://nusaibah01.github.io/all-images/images/Health Potion.gif" alt="Projects.gif">
+                    <hr>
                 </div>
                     <!-- <img :src="project.image" :alt="project.projectName" class="img-fluid" loading="lazy"> -->
                 </template>
                 <template #cardBody>
                     <p>{{ project.description }} </p>
+                    <hr>
                   <a :href="project.github" target="_blank">
                     <button><i class="bi bi-github"></i></button></a>
                     <a :href="project.vercel" target="_blank">
@@ -51,15 +54,20 @@ import { useStore } from "vuex";
 </script>
 
 <style scoped>
-h3{
+
+h5{
     font-family: "Press Start 2P", system-ui;
     color: blanchedalmond;
 }
 p{
     font-family: "Space Mono", monospace;
+    color: red;
+}
+p:hover{
     color: blue;
 }
 img{
+    margin: 3px;
     padding: 0;
     width: 48px;
     height: 48px;
@@ -73,11 +81,15 @@ button{
     background-color: black;
 }
 .card{
-    background-color: #0C0C0C;
+    background-color: #0C0C0C ;
     
 }
 h2{
     margin: 30px;
-    font-family: "Press Start 2P", system-ui !important
+    font-family: "Press Start 2P", system-ui !important;
+  
+}
+i{
+    background-color: white;
 }
 </style>
