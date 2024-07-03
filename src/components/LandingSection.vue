@@ -30,7 +30,7 @@
     import  { useStore } from 'vuex'
     const store =  useStore()
     const jobTitle = computed(() => store.state.jobTitle)
-    const title = ref('Aspring Full Stack Developer and Cyber Security Analyst')
+    const title = ref('Aspring Full Stack Developer')
     const cnt = ref(-1)
     
     function repeat() {
