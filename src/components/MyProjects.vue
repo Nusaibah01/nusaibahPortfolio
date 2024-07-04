@@ -10,7 +10,7 @@
                     <h5 class="d-inline">{{ project.projectName }}</h5>
                     <hr>
                     <div>
-                    <img src="https://nusaibah01.github.io/all-images/images/Health Potion.gif" alt="Projects.gif">
+                   <img :src="project.image" :alt="project.projectName">
                     <hr>
                 </div>
                     <!-- <img :src="project.image" :alt="project.projectName" class="img-fluid" loading="lazy"> -->
@@ -61,17 +61,23 @@ h5{
 }
 p{
     font-family: "Space Mono", monospace;
-    color: red;
+    color: tan;
 }
 p:hover{
-    color: blue;
+    color: red;
 }
 img{
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    width: 150px;
+    height: 120px;
+}
+/* img{
     margin: 3px;
     padding: 0;
     width: 48px;
     height: 48px;
-}
+} */
 button{
     border-radius: 3px;
     background-color: white;

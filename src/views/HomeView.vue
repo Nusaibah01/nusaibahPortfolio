@@ -1,9 +1,9 @@
 <template>
   <div class="container">
    <div class="row">
-    <LandingSection/>
+    
     <section class="row" id="landing">
- 
+      <LandingSection/>
     </section>
 
     <section class="row" id="about">

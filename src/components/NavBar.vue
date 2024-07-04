@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
-      <router-link class="navbar-brand" to="/">
+      <a class="navbar-brand" href="#landing">
         <!-- Logo -->
         <img
           src="https://nusaibah01.github.io/all-images/images/Mylogo.png.png"
@@ -9,7 +9,7 @@
           class="img-fluid"
           loading="lazy"
         />
-      </router-link>
+    </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -25,8 +25,11 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#landing"
-              >Home</a
+              ></a
             >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#landing" >Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about" >About</a>

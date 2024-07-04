@@ -19,7 +19,7 @@
     
                 <template #cardHeader>
                  
-                    <img :src="testimonial.profile" :alt="testimonial.projectName" class="img-fluid d-inline" loading="lazy">
+                    <img :src="testimonial.profile" :alt="testimonial.name" class="img-fluid d-inline" loading="lazy">
                     <hr>
                 </template>
               
@@ -28,6 +28,7 @@
                     <h5>{{ testimonial.name}}</h5>
                     <hr>
                     <p>{{ testimonial.testimonial }} </p>
+                    <small> {{testimonial.role }}</small>
                         <hr>
                    
                 </template>
@@ -75,6 +76,7 @@ img{
     border-radius: 5px;
 }
 h2{
+    
     font-family: "Press Start 2P", system-ui !important;
 }
 
@@ -84,15 +86,19 @@ h5{
      margin: 6px;
 }
 p{  
-
+    font-family: "Space Mono", monospace; 
     margin: 30px;
-    color: blue;
+    color: white;
 }
 p:hover{
     color: red;
 }
 h2{
     margin: 30px;
+}
+small{
+    font-family: "Space Mono", monospace;
+    color: tan;
 }
 
 </style>
