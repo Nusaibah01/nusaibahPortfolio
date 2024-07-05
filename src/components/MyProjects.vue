@@ -57,20 +57,20 @@ import { useStore } from "vuex";
 
 h5{
     font-family: "Press Start 2P", system-ui;
-    color: blanchedalmond;
+    color: gold;
 }
 p{
     font-family: "Space Mono", monospace;
-    color: tan;
+    color: grey;
 }
 p:hover{
-    color: red;
+    color: white;
 }
 img{
     object-fit: contain;
     aspect-ratio: 1/1;
     width: 150px;
-    height: 120px;
+    height: 130px;
 }
 /* img{
     margin: 3px;
@@ -93,9 +93,15 @@ button{
 h2{
     margin: 1em;
     font-family: "Press Start 2P", system-ui !important;
+    color: white !important;
   
 }
 i{
     background-color: white;
+}
+/* Projects */
+#p{
+  font-family: "Space Mono", monospace;
+  color: silver;
 }
 </style>

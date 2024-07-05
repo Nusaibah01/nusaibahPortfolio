@@ -79,7 +79,8 @@
           <i class="bi bi-briefcase-fill"></i><p class="lead">Adaptability and willingness to learn new concepts</p>
           
           <h3 id="ts">Techical Skill's</h3>
-        <!-- "techSkill1": "Html",--> 
+       
+          <!-- "techSkill1": "Html",--> 
   <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="100px" height="100px"><path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"/><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z" class="H"/></svg> 
         
       <!-- "techSkill2": "CSS" -->
@@ -137,10 +138,8 @@ h3, h2{
   border-radius: 50%;
 } */
 svg:hover{
- 
-  border-color: solid white;
   gap: 60px;
-  transform: scale(1);
+  transform: scale(2);
   
 }
 svg{
@@ -154,12 +153,12 @@ cursor: pointer;
 -webkit-transition-timing-function: ease;  */
 } 
 h3{
-  color: tan;
+  color: white;
 }
 /* .l {
   float: right;
 }  */
-  .EA{
+  /* .EA{
     background-color:rgb(0, 255, 0);
     
     box-shadow: 10px 10px 20px rgb(0, 255, 0);
@@ -170,7 +169,7 @@ h3{
   }
 .G{
   box-shadow: 10px 10px 20px rgb(255, 204, 0);
-}
+} */
 
 .card{
   max-width: 100px;
@@ -179,11 +178,10 @@ h3{
  size: 3em;
 }
 #Edu{
-  margin: 0 auto;
-  text-align: center;
+
   
-  margin: 0 auto;
-  text-align: center;
+  
+ margin: 10em;
   padding: 10px;
 }
 
@@ -317,6 +315,19 @@ h3{
 }
 #s, #ts{
   margin: 1em;
+}
+/* Resume */
+
+.lead{
+  color: #2c3e50;
+}
+#r{
+  font-family: "Press Start 2P", system-ui;
+  color:white;
+}
+#edu{
+  font-family: "Space Mono", monospace;
+  color: yellow;
 }
   </style>
 

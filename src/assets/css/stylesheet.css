@@ -41,7 +41,8 @@ color: #2c3e50;
 
 /* Landing Section */
 #text{
-  font-family: "Space Mono", monospace;
+  font-family: "Press Start 2P", system-ui;
+  color: white;
 }
 
 /* Universal Selector */
@@ -93,44 +94,10 @@ img[alt='aboutimg'] {
 /* Section */
 section {
   scroll-margin-block: 5rem;
+  background-color: black;
 
 }
 
-/* Footer */
-footer{
-    background-color: #0C0C0C;
-    font-family: "Space Mono", monospace; ;
-
-}
-/* About Me */
-#about{
-  background-color: #D7D9CE;
-}
-.lead{
-  font-family: "Space Mono", monospace;
-  color: #0C0C0C;
-}
-#am{
-  color: #2c3e50;
-  font-family: "Press Start 2P", system-ui;
-}
-/* Resume */
-
-.lead{
-  color: #2c3e50;
-}
-#r{
-  font-family: "Press Start 2P", system-ui;
-}
-#edu{
-  font-family: "Space Mono", monospace;
-}
-/* Projects */
-#p{
-  font-family: "Space Mono", monospace;
-  color: silver;
-}
-/* media Query */
 
 
-/* border  animation  */
+

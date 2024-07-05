@@ -12,7 +12,7 @@
     <div class="col">
         <div id="details">
             <h1 class="display-1" id="text">Nusaibah Charif</h1>
-           <p v-if="title" id="text">
+           <p v-if="title" id="title">
             
             <span> I am an {{ title}}</span>
         </p>
@@ -58,6 +58,12 @@ img{
     height: auto;
   }
 }
-
+.text{
+    color: white;
+}
+#title{
+    color: yellow;
+    font-family: "Press Start 2P", system-ui;
+}
 </style>
     

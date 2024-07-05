@@ -281,4 +281,17 @@
 #about img {
   padding: 0;
 }
+h1{
+  color: white;
+}
+/* About Me */
+
+.lead{
+  font-family: "Space Mono", monospace;
+  color: silver;
+}
+#am{
+  color: white;
+  font-family: "Press Start 2P", system-ui;
+}
   </style>

@@ -54,6 +54,11 @@
 
 <style scoped>
 .nav-link{
+
+  font-family: "Press Start 2P", system-ui;
   color: white;
+}
+.nav-link:hover{
+  color: yellow;
 }
 </style>

@@ -23,6 +23,12 @@ data() {
 </script>
 
 <style scoped>
+/* Footer */
+footer{
+    background-color: #0C0C0C;
+    font-family: "Space Mono", monospace; ;
+
+}
 
 
 </style>
