@@ -91,7 +91,7 @@ button{
     
 }
 h2{
-    margin: 30px;
+    margin: 1em;
     font-family: "Press Start 2P", system-ui !important;
   
 }

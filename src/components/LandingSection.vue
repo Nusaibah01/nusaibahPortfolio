@@ -13,8 +13,8 @@
         <div id="details">
             <h1 class="display-1" id="text">Nusaibah Charif</h1>
            <p v-if="title" id="text">
-            I am an
-            <span>{{ title}}</span>
+            
+            <span> I am an {{ title}}</span>
         </p>
        <Spinner v-else />
         </div>
@@ -52,5 +52,12 @@ repeat()
 img{
     box-shadow: 10px 10px 20px 	rgb(210,180,140);
 }
+@media screen and (width < 800px) {
+  #landing .row {
+    display: block;
+    height: auto;
+  }
+}
+
 </style>
     

@@ -51,3 +51,9 @@
     </div>
   </nav>
 </template>
+
+<style scoped>
+.nav-link{
+  color: white;
+}
+</style>

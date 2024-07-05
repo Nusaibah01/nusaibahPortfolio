@@ -277,4 +277,8 @@
   </script>
   
   <style scoped>
+  /* Remove white space */
+#about img {
+  padding: 0;
+}
   </style>

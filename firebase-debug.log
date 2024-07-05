@@ -1,0 +1,60 @@
+[debug] [2024-07-04T14:05:12.954Z] ----------------------------------------------------------------------
+[debug] [2024-07-04T14:05:12.956Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Student\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-04T14:05:12.956Z] CLI Version:   13.0.3
+[debug] [2024-07-04T14:05:12.957Z] Platform:      win32
+[debug] [2024-07-04T14:05:12.957Z] Node Version:  v20.14.0
+[debug] [2024-07-04T14:05:12.957Z] Time:          Thu Jul 04 2024 16:05:12 GMT+0200 (South Africa Standard Time)
+[debug] [2024-07-04T14:05:12.957Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-04T14:05:12.963Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-04T14:05:12.964Z] > authorizing via signed-in user (charifnusaibah01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Student\documents\vue_workshop\eomp\eompvue
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-07-04T14:08:50.867Z] ----------------------------------------------------------------------
+[debug] [2024-07-04T14:08:50.869Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Student\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-04T14:08:50.870Z] CLI Version:   13.0.3
+[debug] [2024-07-04T14:08:50.870Z] Platform:      win32
+[debug] [2024-07-04T14:08:50.870Z] Node Version:  v20.14.0
+[debug] [2024-07-04T14:08:50.870Z] Time:          Thu Jul 04 2024 16:08:50 GMT+0200 (South Africa Standard Time)
+[debug] [2024-07-04T14:08:50.870Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-04T14:08:50.877Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-04T14:08:50.878Z] > authorizing via signed-in user (charifnusaibah01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Student\documents\vue_workshop\eomp\eompvue
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-04T14:09:04.784Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-07-04T14:09:05.785Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-07-04T14:09:05.785Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]

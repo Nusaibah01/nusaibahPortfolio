@@ -3,18 +3,8 @@
      <div class="row">
         <h2 class="display-2" id="p">Testimonials</h2>
     </div>
-        <div class="row gap-4 justify-content-center" v-if="myTestimonials">
-<!-- <div class="testimonial-card">
-  <div class="front">
-    <img src="https://nusaibah01.github.io/all-images/images/Health Potion.gif" alt="Projects.gif">
-  </div>
-  <div class="back">
-                       <img :src="testimonial.profile" :alt="testimonial.projectName" class="img-fluid d-inline" loading="lazy" id="back-image">
-     <p>{{ testimonial.testimonial }} </p>
-    
-     <h5>{{ testimonial.name}}</h5>
-  </div>
-</div> -->
+        <div class="row gap-6 justify-content-center" v-if="myTestimonials">
+
             <Card v-for="(testimonial, id) in myTestimonials" :key="id" class="card">
     
                 <template #cardHeader>
@@ -87,7 +77,7 @@ h5{
 }
 p{  
     font-family: "Space Mono", monospace; 
-    margin: 30px;
+
     color: white;
 }
 p:hover{
@@ -99,6 +89,36 @@ h2{
 small{
     font-family: "Space Mono", monospace;
     color: tan;
+}
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust as needed */
+}
+
+.testimonial-card {
+  flex: 1 1 calc(50% - 10px); /* Two cards per row initially */
+  max-width: calc(50% - 10px);
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .testimonial-card {
+    flex-basis: calc(33.33% - 20px); /* Three cards per row on larger screens */
+    max-width: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 767px) {
+ 
+    .testimonial-card, h2 {
+    flex-basis: calc(50% - 20px); /* Two cards per row on smaller screens */
+    max-width: calc(50% - 20px);
+  }
 }
 
 </style>

@@ -1,21 +1,7 @@
 <template>
-    <div class="container-fluid" id="contactUs">
-       <h2>Reach Me</h2>
-       <h3>Get in touch with me</h3>
-       
-    <form action="https://formspree.io/f/xpzvvlqj" method="post">
-      <input type="text" placeholder="First Name" name="First Name"  class="i" required><br>
-      <input type="text" placeholder="Last Name" name="Last Name" class="i" required><br>
-      <input type="email" placeholder="Email Address" name="Email Address" class="i" required><br>
-      <textarea rows="5" cols="60" placeholder="Your message" name="Your message" required></textarea><br>
-      <button type="submit" id="b">Submit</button>
-    </form>
-    
-    
-
-    </div>
+   
     <div class="container-fluid">
-     
+        <h2>Reach Me</h2>
      <!-- location icon -->
   
  <svg version="1.1" viewBox="0 0 2048 2048" width="70" height="70" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +21,7 @@
 <path transform="translate(1111,317)" d="m0 0h6l11 9 14 13 9 11 9 13 2 3-1 4h-2l-2 1-5-5-5-8-5-5-8-9-4-6-5-5-4-5-7-4-4-4z" fill="#F4F7F1"/>
 <path transform="translate(951,305)" d="m0 0 7 1v2l-7 3-2 3-6 1v2l-15 10-4 2-1 3-7 6-3 4h-2l-2 4-3 2h-2l-2 2 2 2h-5l-1 4-3 3-2-1 5-10 15-16 11-10 13-9 11-7z" fill="#F2F5ED"/>
 <path transform="translate(900,349)" d="m0 0 4 2v1h-5l-1 4-3 3-2-1 2-5z" fill="#FCFCFC"/>
-</svg> <p class="lead"> GreenHaven, Cape Town</p> 
+</svg> <p class="lead"> ⭐GreenHaven, Cape Town</p> 
 <br>
 <!-- cellphone -->
 <svg version="1.1" viewBox="0 0 2048 2048" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +60,7 @@
 <path transform="translate(1252,1417)" d="m0 0h13l12 6 8 9 3 8v14l-5 10-5 5-8 6-6 2h-12l-12-6-8-9-4-10v-10l4-11 5-6 11-7z" fill="#6C616B"/>
 <path transform="translate(1015,1652)" d="m0 0h16l9 4 8 7 4 6 2 5v14l-6 11-4 5-10 6-2 1h-16l-11-6-6-7-4-6-1-4v-13l3-8 6-8 5-2v-2z" fill="#6C616B"/>
 <path transform="translate(1530,332)" d="m0 0h3l-1 9-5 10-11 7-1 5h-76l2-4-4-1h-3v-4l4-1h8l4 1 6-3 2 1h8l5 1 7-1 6-2h9l4-3 9-2 11-6 10-5h3z" fill="#6B606A"/>
-</svg> <p class="lead">060 611 2654</p>
+</svg> <p class="lead"> ⭐060 611 2654</p>
 <br>
 <!-- Email Icon -->
 <svg version="1.1" viewBox="0 0 2048 2048" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
@@ -109,14 +95,38 @@
 <path transform="translate(1280,812)" d="m0 0 3 3 5 2v2l2 1-1 4-3-1-6-8z" fill="#EFC758"/>
 <path transform="translate(1342,846)" d="m0 0h2l-2 4-9 8-1-3z" fill="#EDC557"/>
 <path transform="translate(788,796)" d="m0 0 3 1-11 7-3-1 9-6z" fill="#EEC658"/>
-</svg><p class="lead"> charifnusaibah01@gmail.com</p>
+</svg><p class="lead"> ⭐charifnusaibah01@gmail.com</p>
 <br>
-<p class="lead"><i class="bi bi-github" ></i>Nusaibah01 </p>
+<p class="lead"><svg version="1.1" viewBox="0 0 2048 2048" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+<path transform="translate(1021,21)" d="m0 0 48 1 33 2 42 4 44 6 43 8 40 9 41 11 32 10 40 14 27 11 24 10 41 19 27 14 22 12 24 14 21 13 20 13 23 16 18 13 16 12 16 13 14 11 30 26 13 12 17 16 27 27 7 8 9 9 7 8 24 28 11 14 13 16 9 12 13 18 14 20 13 20 14 22 10 17 13 23 15 28 13 26 16 36 12 29 11 29 16 48 13 48 10 43 8 43 5 37 4 36 4 48v70l-3 54-4 37-5 42-6 34-12 57-15 53-9 29-16 43-11 28-26 56-8 17-26 46-16 27-21 31-16 24-14 18-11 14-12 15-11 14-11 13-7 7-7 8-15 16-11 12-6 7-8 7-9 9-8 7-8 8-8 7-16 15-14 11-13 11-12 9-11 9-17 13-33 22-11 8-17 11-24 14-23 13-25 14-31 15-28 13-19 8-50 19-18 6-6 1h-21l-11-3-8-4-10-9-7-10-3-9-2-12-1-49v-33l1-148v-71l-1-19-4-30-6-26-6-20-9-21-11-21-12-17-12-14-6-5 1-3 73-11 39-8 34-9 29-9 34-13 34-16 18-10 23-14 16-12 13-10 13-11 12-12 8-7 4-5h2l2-4 9-11 14-17 14-22 12-20 11-22 11-25 14-41 6-23 9-42 6-47 2-19 2-49v-30l-1-23-4-33-4-22-8-32-10-29-9-21-9-19-14-24-14-21-12-16-11-13-8-10 2-9 7-22 5-22 4-30 1-10v-45l-3-32-5-27-6-27-15-46-1-2-6-1h-35l-20 3-25 6-26 8-35 14-25 12-24 12-22 12-22 14-24 15-14 9h-8l-51-12-26-5-43-7-49-5-26-2-52-2-44 1-45 3-47 5-49 8-33 7-38 9h-7l-22-14-24-15-25-15-45-23-15-7-38-15-27-8-21-5-20-3-14-1h-13l-14 2-4 10-12 37-8 36-3 17-3 31v49l4 34 5 24 8 26 2 8-11 13-13 16-11 16-10 15-12 21-9 17-13 31-10 30-7 29-5 31-3 32v55l2 38 5 44 5 32 11 47 12 36 10 25 16 33 8 14 11 17 8 12 14 17 11 13 12 13 8 7 10 10 14 11 16 12 15 10 22 13 23 12 26 12 35 13 29 9 27 7 32 7 70 11 12 2-1 4-5 4-7 8-9 11-12 20-8 16-10 25-12 50-19 8-25 8-26 6-26 4h-44l-19-3-23-6-20-8-20-11-19-14-15-14-9-9-9-11-8-10-17-26-12-18-13-16-11-12-8-8-11-9-12-9-21-13-26-11-21-6-12-2h-25l-16 4-6 3-5 5-2 3v7l6 10 11 12 10 8 15 11 11 7 11 9 12 11 10 10 9 11 13 17 10 15 16 28 15 33 10 23 11 21 10 14 8 11 12 14 16 15 20 15 24 14 25 11 18 6 24 6 26 4 8 1 19 1h29l39-3 42-7h7l1 97v81l-3 16-5 10-9 10-9 6-12 4-6 1h-19l-13-3-39-15-31-12-68-32-22-12-21-12-26-15-33-22-25-17-14-10-16-13-28-22-13-11-10-9-8-7-8-8-8-7-7-7-8-7-7-6-7-8-9-9-7-8-7-7-7-8-15-16-9-11-13-16-10-13-8-10-14-18-14-21-17-25-8-12-11-18-15-27-12-21-12-23-13-28-15-33-15-40-10-27-8-25-17-60-13-62-5-32-7-58-2-24-2-32v-92l6-61 5-39 7-41 9-42 11-43 11-36 14-41 11-28 10-24 16-36 9-17 8-16 15-28 16-27 10-16 14-22 14-20 12-17 12-16 12-15 7-9 9-11 12-14 9-10 9-11 9-9 7-8 39-39 8-7 7-7 11-9 12-11 11-9 17-14 13-10 20-15 34-24 19-12 17-11 24-14 14-8 18-10 40-20 20-9 28-12 36-14 50-17 50-14 49-11 44-8 46-6 34-3 34-2z" fill="#5C6CC0"/>
+</svg>Nusaibah01   </p>
 <br>
-<p class="lead"><i class="bi bi-linkedin"></i>Nusaibah Abderemane Charif</p>
+<p class="lead"><svg version="1.1" viewBox="0 0 2048 2048" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+
+<path transform="translate(251)" d="m0 0h1546l36 7 19 5 25 9 18 8 18 10 15 10 12 9 10 8 13 12 15 15 9 11 12 16 10 16 9 16 8 17 8 21 6 21 5 24 3 18v1540l-6 34-6 24-7 20-8 18-8 16-12 20-12 16-11 13-9 10-12 12-11 9-17 13-19 12-27 14-26 10-21 6-29 6-12 2h-1541l-38-7-25-7-22-8-21-10-17-10-12-8-12-9-13-11-12-11-9-9-9-11-7-8-12-17-9-15-12-23-10-26-7-25-6-30-1-8v-1546l7-35 7-25 8-20 7-15 10-19 10-15 9-12 16-20 5-5 6-5 5-5 11-10 13-10 18-12 16-9 16-8 19-8 23-7 27-6z" fill="#0076B3"/>
+<path transform="translate(1325,793)" d="m0 0h35l40 3 35 6 26 7 19 7 18 8 17 9 18 12 13 10 12 11 16 16 9 11 13 18 12 21 8 16 9 21 11 33 8 32 5 27 4 28 3 29 3 48 1 36v424l-2 10-6 12-4 5-10 7-9 3-6 1h-204l-13-3-11-7-7-9-4-8-2-8-1-37v-393l-2-29-4-25-6-23-8-22-10-19-9-12-9-10-12-10-16-9-14-6-19-5-13-2-13-1h-11l-24 3-21 6-17 8-16 11-12 11-9 10-12 18-12 23-9 25-6 24-4 22-2 24-1 415-2 11-5 10-6 7-9 6-8 3-7 1h-197l-12-3-10-6-8-9-5-12-1-6-1-26v-750l1-15 5-11 6-8 8-7 10-4 12-1 198 1 9 3 10 6 7 9 4 8 2 10 1 66 7-9 11-14 18-20 8-7 13-11 14-10 16-10 21-10 19-7 24-7 24-5 19-3z" fill="#FEFDFD"/>
+<path transform="translate(468,806)" d="m0 0h190l11 2 10 5 10 9 6 10 3 9v784l-2 10-5 10-9 10-14 7-10 2h-191l-12-3-8-4-10-9-6-10-3-10-1-9v-772l2-11 5-10 6-8h2v-2l9-6 8-3z" fill="#FEFDFD"/>
+<path transform="translate(547,384)" d="m0 0h32l24 4 20 6 17 7 16 9 17 12 13 12 10 10 10 13 9 14 8 16 7 18 5 21 3 21v24l-3 20-5 20-6 16-8 16-7 12-9 12-12 14-7 7-14 11-10 7-14 8-15 7-18 6-25 5-10 1h-25l-25-4-21-6-17-7-17-9-14-10-15-13-13-14-11-15-9-15-9-21-6-20-4-22-1-8v-21l4-27 6-21 7-17 8-15 9-13 11-14 14-14 17-13 13-8 16-8 16-6 19-5z" fill="#FEFDFD"/>
+
+</svg>
+ Nusaibah Abderemane Charif</p>
 </div>
     
- 
+<div class="container-fluid" id="contactUs">
+     
+       <h3>Get in touch with me</h3>
+       
+    <form action="https://formspree.io/f/xpzvvlqj" method="post">
+      <input type="text" placeholder="First Name" name="First Name"  class="i" required><br>
+      <input type="text" placeholder="Last Name" name="Last Name" class="i" required><br>
+      <input type="email" placeholder="Email Address" name="Email Address" class="i" required><br>
+      <textarea rows="5" cols="60" placeholder="Your message" name="Your message" required></textarea><br>
+      <button type="submit" id="b">Submit</button>
+    </form>
+    
+    
+
+    </div>
 </template>
 
 <script>
@@ -148,11 +158,15 @@
     background-color: black;
 }
 button{
-    border-color: antiquewhite;
-    background-color: white;
-    margin: 30px;
-    color: #0C0C0C;
+    border-color: black;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    width: 48%;
+    color: blue;
     font-family:  "Space Mono", monospace;
+    box-shadow:  10px 10px 20px #0C0C0C;
+
 }
 
 
@@ -162,12 +176,38 @@ p{
 p:hover{
     color: red;
 }
+h3{
+    margin: 1em;
+    font-family:  "Space Mono", monospace;
+    color: blue;
+}
 /* svg{
     float: right;
 } */
-/* h3{
-    float: right;
-
-} */
-
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+  #reachMe {
+    padding: 20px;
+  }
+  .container-fluid {
+    padding: 0 15px;
+  }
+  .i {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
 </style>
