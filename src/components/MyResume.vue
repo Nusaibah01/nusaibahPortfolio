@@ -9,7 +9,7 @@
        <div class="timeline">
         <div class="holder left">
           <div class="content">
-          <h3 v-for="(education, id) in myEducation" :key="id">{{ education.Year1 }}
+          <h3 v-for="(education, id) in myEducation" :key="id" id="ee">{{ education.Year1 }}
           </h3>
           <hr>
          <img class="img-fluid" src=https://nusaibah01.github.io/all-images/images/lca.png loading="lazy" alt="LCA">
@@ -23,7 +23,7 @@
         
      <div class="holder right">
       <div class="content">
-      <h3 v-for="(education, id) in myEducation" :key="id">{{ education.Year2 }}</h3>
+      <h3 v-for="(education, id) in myEducation" :key="id" id="ee">{{ education.Year2 }}</h3>
       <hr>
       <img class="img-fluid" src="https://nusaibah01.github.io/all-images/images/harvard.jpg" loading="lazy" alt="Harvard"> 
         <p v-for="(education, id) in myEducation" :key="id">{{ education.School2}} </p>
@@ -33,7 +33,7 @@
    </div>
    <div class="holder left">
     <div class="content">
-    <h3 v-for="(education, id) in myEducation" :key="id">{{ education.Year3 }}</h3>
+    <h3 v-for="(education, id) in myEducation" :key="id" id="ee">{{ education.Year3 }}</h3>
     <hr>
     <img class="img-fluid" src="https://nusaibah01.github.io/all-images/images/ka.png" loading="lazy" alt="ka">
 
@@ -45,7 +45,7 @@
   </div>
   <div class="holder right">
     <div class="content">
-      <h3 v-for="(education, id) in myEducation" :key="id">{{ education.Year4 }}</h3>   
+      <h3 v-for="(education, id) in myEducation" :key="id" id="ee">{{ education.Year4 }}</h3>   
       <hr>       
       <img class="img-fluid" src="https://nusaibah01.github.io/all-images/images/tlc.jpg" loading="lazy" alt="tlc">
     
@@ -73,10 +73,10 @@
         <div>
             
             <h3>Personal Skill's</h3>
-          <i class="bi bi-briefcase-fill"></i><p class="lead">Strong analytical and problem-solving abilities</p>
+          <i class="bi bi-briefcase-fill"></i><p class="lead" id="ss">Strong analytical and problem-solving abilities</p>
    
-          <i class="bi bi-briefcase-fill"></i><p class="lead">Ability to work collaboratively in a team environment</p>
-          <i class="bi bi-briefcase-fill"></i><p class="lead">Adaptability and willingness to learn new concepts</p>
+          <i class="bi bi-briefcase-fill"></i><p class="lead" id="ss">Ability to work collaboratively in a team environment</p>
+          <i class="bi bi-briefcase-fill"></i><p class="lead" id="ss">Adaptability and willingness to learn new concepts</p>
           
           <h3 id="ts">Techical Skill's</h3>
        
@@ -327,6 +327,20 @@ h3{
 }
 #edu{
   font-family: "Space Mono", monospace;
+  color: tan;
+}
+#s{
+color: white;
+}
+#ss{
+  color: tan;
+  font-family: "Space Mono", monospace;
+  margin: 1em;
+}
+h3{
+  margin: 1em;
+}
+#ee{
   color: yellow;
 }
   </style>

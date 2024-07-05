@@ -1,7 +1,7 @@
 <template>
     <div class="container">
      <div class="row">
-        <h2 class="display-2" id="p">Testimonials</h2>
+        <h2  id="p">Testimonials</h2>
     </div>
         <div class="row gap-6 justify-content-center" v-if="myTestimonials">
 
@@ -66,7 +66,7 @@ img{
     border-radius: 5px;
 }
 h2{
-    
+    color: white;
     font-family: "Press Start 2P", system-ui !important;
 }
 
@@ -78,10 +78,10 @@ h5{
 p{  
     font-family: "Space Mono", monospace; 
 
-    color: white;
+    color: white ;
 }
 p:hover{
-    color: red;
+    color: yellow;
 }
 h2{
     margin: 30px;

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
      <div class="row">
-        <h2 class="display-2" id="p">My Projects</h2>
+        <h2 id="p">My Projects</h2>
     </div>
         <div class="row gap-2 justify-content-center d-flex align-items-stretch" v-if="myProjects">
           
@@ -57,14 +57,14 @@ import { useStore } from "vuex";
 
 h5{
     font-family: "Press Start 2P", system-ui;
-    color: gold;
+    color: tan;
 }
 p{
     font-family: "Space Mono", monospace;
-    color: grey;
+    color: white;
 }
 p:hover{
-    color: white;
+    color: yellow;
 }
 img{
     object-fit: contain;
